@@ -16,5 +16,6 @@ VOLUME /root/.node-red
 
 # Set the default command to execute
 # when creating a new container
+WORKDIR /usr/local/bin
 CMD ["/usr/local/bin/node-red -v"]
 
