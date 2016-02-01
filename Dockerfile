@@ -11,7 +11,6 @@ RUN npm install -g node-red-contrib-owfs
 RUN npm install -g node-red-newtifrypro
 RUN npm install -g noreowfs
 RUN npm install -g node-red-contrib-yamaha
-RUN npm install -g node-red-contrib-openzwave
 RUN npm install -g node-red-contrib-npm
 RUN npm install -g node-red-node-timeswitch
 RUN npm install -g ttb-node-owntracks
