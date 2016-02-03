@@ -17,6 +17,9 @@ RUN npm install -g ttb-node-owntracks
 RUN npm install -g node-red-node-nma
 RUN npm install -g node-red-contrib-ftp
 RUN npm install -g node-red-contrib-rfxcom
+RUN npm install -g node-red-contrib-route-parser
+RUN npm install -g node-red-contrib-sql
+RUN npm install -g node-red-node-sqlite
 
 # expose port
 EXPOSE 1880
@@ -26,5 +29,5 @@ VOLUME /root/.node-red
 # Set the default command to execute
 # when creating a new container
 WORKDIR /usr/local/bin
-CMD ["/usr/local/bin/node-red -v"]
+CMD ["/usr/local/bin/node-red", "-v"]
 
