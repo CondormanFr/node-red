@@ -20,6 +20,7 @@ RUN npm install -g node-red-contrib-rfxcom
 RUN npm install -g node-red-contrib-route-parser
 RUN npm install -g node-red-contrib-sql
 RUN npm install -g node-red-node-sqlite
+RUN npm install -g node-red-contrib-splitter
 
 # expose port
 EXPOSE 1880
