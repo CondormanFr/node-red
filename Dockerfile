@@ -21,6 +21,7 @@ RUN npm install -g node-red-contrib-route-parser
 RUN npm install -g node-red-contrib-sql
 RUN npm install -g node-red-node-sqlite
 RUN npm install -g node-red-contrib-splitter
+RUN npm install -g node-red-contrib-parallel-iterator
 
 # expose port
 EXPOSE 1880
