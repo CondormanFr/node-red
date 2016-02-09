@@ -22,6 +22,7 @@ RUN npm install -g node-red-contrib-sql
 RUN npm install -g node-red-node-sqlite
 RUN npm install -g node-red-contrib-splitter
 RUN npm install -g node-red-contrib-parallel-iterator
+RUN npm install -g node-red-node-emoncms
 
 # expose port
 EXPOSE 1880
