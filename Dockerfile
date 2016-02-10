@@ -24,6 +24,7 @@ RUN npm install -g node-red-contrib-sql
 RUN npm install -g node-red-node-sqlite
 RUN npm install -g node-red-contrib-owfs
 RUN npm install -g node-red-node-emoncms
+RUN npm install -g node-red-contrib-influxdb
 
 # expose port
 EXPOSE 1880
