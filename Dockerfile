@@ -2,6 +2,7 @@ FROM node:0.12
 
 MAINTAINER Romain GOUYET "docker@gouyet.com"
 
+
 # install node-red
 RUN npm install -g node-red
 
