@@ -20,7 +20,7 @@ RUN npm install -g node-red-node-timeswitch
 RUN npm install -g ttb-node-owntracks
 RUN npm install -g node-red-node-nma
 RUN npm install -g node-red-contrib-ftp
-#RUN npm install -g node-red-contrib-rfxcom
+RUN npm install -g node-red-contrib-rfxcom
 RUN npm install -g node-red-contrib-sql
 RUN npm install -g node-red-node-sqlite
 RUN npm install -g node-red-contrib-owfs
